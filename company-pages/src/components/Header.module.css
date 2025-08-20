@@ -1,0 +1,73 @@
+.header{
+    background-color: var(--secondary-bg);
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+
+  
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+.nav li{
+    margin:0 1rem;
+    position: relative;
+
+}
+.nav {
+    color: rgb(147, 167, 169);
+    text-decoration: underline;
+
+}
+
+.nav a:hover{
+    color:rgba(211, 237, 241, 0.76);
+}
+
+.dropdownToggle {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    background-color:rgba(93, 104, 102, 0.939);
+    color: rgb(182, 187, 179);
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+.dropdownMenu li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.dropdownMenu li:hover {
+    background-color: #49504f;
+}
+
+
+
+
+@media screen and (max-width:360px){
+    .header{
+        display: grid;
+        margin: -0.5rem;
+    
+    }
+    
+  
+}

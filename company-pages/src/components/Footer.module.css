@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--secondary-bg);
+    color: var(--secondary-color);
+    padding: 0.3rem;
+    text-align: center;
+
+}
+
+.footer p:hover{
+    color: chartreuse;
+}
